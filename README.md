@@ -26,6 +26,8 @@ Et on vérifie avec :
 - Créez un dépôt à partir d'un répertoire contenant déjà des fichiers
 - Ajoutez tous ces fichiers dans une version
 - Utilisez `git log` pour voir l'historique de vos versions
+- Créez une nouvelle version (en modifiant de nouveaux fichiers)
+- Utilisez `git log -p` pour voir l'historique et les différences.
 
 ## Envoyez ce dépôt sur Github
 
@@ -38,6 +40,30 @@ Et on vérifie avec :
 - Faites un changement, créez une nouvelle version.
 - Essayez d'envoyer cette version sur Github. Que se passe-t-il ? Pourquoi ?
 - À votre avis, comment-faire pour que cela fonctionne ?
+
+## Retour vers le futur
+
+- Placez vous dans un répertoire contenant un dépôt avec au moins deux versions.
+- Utilisez `git log` pour voir l'historique de vos versions, vous devriez avoir quelque chose qui ressemble à ça :
+
+```
+    commit c2465a840d73587e4f83b301d4229e3c1a1befcf
+    Author: Vincent Jousse <vincent@jousse.org>
+    Date:   Tue Oct 27 22:04:02 2015 +0100
+
+        Display multiple translations available for one post
+
+    commit 09834fa3a4db01b7b056466c1a51bce96b575a88
+    Author: Vincent Jousse <vincent@jousse.org>
+    Date:   Tue Oct 27 22:03:49 2015 +0100
+
+        Translate section index
+```
+
+- Faites un `ls` pour voir l'état actuel de votre répertoire.
+- Revenez au tout premier commit en faisant `git checkout 09834fa3a4db01b7b056466c1a51bce96b575a88`. Remplacez évidemment le numéro du commit par le votre.
+- Faites un `ls` et regardez vos fichiers. Ils devraient être revenus dans l'état où ils étaient au premier commit.
+- Pour revenir au dernier commit, faites `git checkout master`.
 
 ## Clés SSH
 
