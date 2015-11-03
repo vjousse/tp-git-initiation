@@ -31,7 +31,7 @@ Et on vérifie avec :
 
 ## Envoyez ce dépôt sur Github
 
-- Créez un dépôt distant (open source) sur Github pour votre projet.
+- Créez un dépôt distant (open source) sur Github pour votre projet. __Attention, ne créez pas de `.gitignore` ou de `README` par défaut__.
 - Faites en sorte d'envoyer les modifications de votre dépôt local sur Github.
 
 ## Récupérer un dépôt Github
