@@ -105,3 +105,7 @@ Fortement inspiré du [TP d'Aurélien Bénel](https://github.com/benel/TP-Git).
 * Fusionnez `test-multi2-branch` avec `test-multi1-branch`.
 * Sur `test-multi1-branch` rajouter une 3 ème ligne à `test.txt` et créez une version.
 * Fusionnez `test-multi1-branch` avec `master` et envoyez le tout sur Github.
+
+
+
+yann ghistelinck.
