@@ -1,4 +1,4 @@
-# Tp Git
+# Pull requests
 
 ## Github et pull request
 
@@ -57,7 +57,51 @@ Nous allons voir ici comment contribuer à un projet que vous n'avez pas créé.
 
 * Pouvez-vous pousser votre code qui est actuellement sur Github directement sur Bitbucket ? Si oui, comment ?
 
+
+
 ## Remerciements
 
 Fortement inspiré du [TP d'Aurélien Bénel](https://github.com/benel/TP-Git).
 
+# Branches
+
+## Branchage simple
+
+* Partez d'un de vos projets git local et créez une branche nommée `test-branch`.
+* Créez un fichier `test.txt` et mettez-y une ligne de texte.
+* Créez une version
+* Rajoutez une deuxième ligne et créez une autre version
+* Fusionnez ce code avec la branche principale (master), et supprimez la branche `test-branch`.
+
+## Fusion
+
+* Partez d'un de vos projets git local et créez une branche nommée `test-merge-branch`.
+* Créez un fichier `test.txt` et mettez-y une ligne de texte.
+* Créez une version
+* Retournez sur la branche master et créez un fichier `test.txt`.
+* Ajoutez une ligne de texte et créez une version
+* Fusionnez la branche  `test-merge-branch` avec `master`. Que se passe-t-il ?
+* Supprimez la branche `test-merge-branch`
+
+## Envoi de branche
+
+* Partez d'un de vos projets git local et créez une branche nommée `test-push-branch`.
+* Créez un fichier `test.txt` et mettez-y une ligne de texte.
+* Créez une version
+* Envoyez cette branche sur Github. Vérifiez qu'elle a bien été envoyée.
+* Supprimez la branche `test-push-branch`
+* A-t-elle été supprimée sur Github ? Faites en sorte qu'elle le soit
+
+
+## Branchage multiple
+
+* Partez d'un de vos projets git local et créez une branche nommée `test-multi1-branch`.
+* Créez un fichier `test.txt` et mettez-y une ligne de texte.
+* Créez une version
+* Envoyez cette branche sur Github. Vérifiez qu'elle a bien été envoyée.
+* Créez une branche `test-multi2-branch` à partir du dernier commit de votre branche `test-multi1-branch`.
+* Ajoutez une ligne au fichier `test.txt` et créez une version.
+* Envoyez le tout sur Github et regardez le graph des branches sur le site de Github.
+* Fusionnez `test-multi2-branch` avec `test-multi1-branch`.
+* Sur `test-multi1-branch` rajouter une 3 ème ligne à `test.txt` et créez une version.
+* Fusionnez `test-multi1-branch` avec `master` et envoyez le tout sur Github.
