@@ -71,3 +71,5 @@ Il n'a pas du vous échapper qu'à chaque fois que vous voulez envoyer une modif
 
 Pour les instructions, pas la peine de réinventer la roue, [Github a un très bon tutoriel là dessus](https://help.github.com/articles/generating-ssh-keys/).
 
+ J'ai 
+
