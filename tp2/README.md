@@ -95,17 +95,14 @@ Fortement inspiré du [TP d'Aurélien Bénel](https://github.com/benel/TP-Git).
 
 ## Branchage multiple
 
-* Partez d'un de vos projets git local et créez une branche nommée `test-multi1-branch`.
-* Créez un fichier `test.txt` et mettez-y une ligne de texte.
-* Créez une version
-* Envoyez cette branche sur Github. Vérifiez qu'elle a bien été envoyée.
-* Créez une branche `test-multi2-branch` à partir du dernier commit de votre branche `test-multi1-branch`.
-* Ajoutez une ligne au fichier `test.txt` et créez une version.
-* Envoyez le tout sur Github et regardez le graph des branches sur le site de Github.
-* Fusionnez `test-multi2-branch` avec `test-multi1-branch`.
-* Sur `test-multi1-branch` rajouter une 3 ème ligne à `test.txt` et créez une version.
-* Fusionnez `test-multi1-branch` avec `master` et envoyez le tout sur Github.
-
-
-
-yann ghistelinck.
+* Partez d'un de vos projets git local et créez une branche nommée `test-multi1-branch`,
+* Créez un fichier `test.txt` et mettez-y une ligne de texte,
+* Créez une version,
+* Envoyez cette branche sur Github. Vérifiez qu'elle a bien été envoyée,
+* Créez une branche `test-multi2-branch` à partir du dernier commit de votre branche `test-multi1-branch`,
+* Ajoutez une ligne au fichier `test.txt` et créez une version,
+* Envoyez le tout sur Github et regardez le graph des branches sur le site de Github,
+* Fusionnez `test-multi2-branch` avec `test-multi1-branch`,
+* Sur `test-multi1-branch` rajouter une 3 ème ligne à `test.txt` et créez une version,
+* Fusionnez `test-multi1-branch` avec `master` et envoyez le tout sur Github,
+* P.CHAMPION.
