@@ -69,5 +69,7 @@ Et on vérifie avec :
 
 Il n'a pas du vous échapper qu'à chaque fois que vous voulez envoyer une modification sur Github, il vous demande à chaque fois votre mot de passe. C'est sympa 5 minutes, mais à la longue ça devient vite inutilisable. Il existe un moyen d'éviter cela : au lieu de vous authentifier par login/mot de passe, Git peut vous authentifier grâce à vos clés SSH. Si vous ne savez pas ce que c'est (je ne connais pas par cœur vos cours de réseau et votre niveau) n'hésitez pas à me demander : c'est quelque chose d'important à connaître (et qui n'est pas spécifique à Git).
 
-Pour les instructions, pas la peine de réinventer la roue, [Github a un très bon tutoriel là dessus](https://help.github.com/articles/generating-ssh-keys/).
+Pour les instructions, pas la peine de réinventer la roue, [Github a un très bon tutoriel là dessus](https://help.github.com/articles/generating-ssh-keys/)
+
+*TROTTIER Arthur.
 
