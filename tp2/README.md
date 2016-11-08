@@ -107,5 +107,6 @@ Fortement inspiré du [TP d'Aurélien Bénel](https://github.com/benel/TP-Git).
 * Fusionnez `test-multi1-branch` avec `master` et envoyez le tout sur Github.
 
 
-
-yann ghistelinck.
+## Contibuteurs
+* yann ghistelinck,
+* Ewen Chaudemanche.
