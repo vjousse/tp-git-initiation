@@ -108,4 +108,5 @@ Fortement inspiré du [TP d'Aurélien Bénel](https://github.com/benel/TP-Git).
 
 
 
-yann ghistelinck.
+yann ghistelinck,
+* Said Ousmanov.
